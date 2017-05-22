@@ -32,8 +32,9 @@ Ultimately, word selection for characters in movies matters, and plays a role in
 
 Outline of Analysis
 ---------------
+**For step 1 see [this notebook](https://github.com/lab3000/machine-learning-bechdel-test/blob/master/obtaining_labels.ipynb)**
 <p>&nbsp; &nbsp; 1. Web scrape movie labels from [bechdeltest.com](http://bechdeltest.com/)</p>
-**See the [obtaining labels notebook](https://github.com/lab3000/machine-learning-bechdel-test/obtaining_labels.ipynb)**
+
 
 **For steps 2 through 9 see [this notebook](https://github.com/lab3000/machine-learning-bechdel-test/machine-learning-bechdel-test.ipynb)**
 <p>&nbsp; &nbsp; 2. Collate dialog lines for each movie [from Cornell study](http://www.cs.cornell.edu/~cristian/papers/chameleons.pdf) and merge with labeled data (407 total movies)</p>
