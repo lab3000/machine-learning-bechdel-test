@@ -20,7 +20,7 @@ Considering the relatively [low bar](http://www.slate.com/blogs/xx_factor/2014/0
 
 Motivation
 ---------------
-I find this question--i.e., can we predict the occurance of a fictionalized female-female interaction without looking for it directly?-- particularly interesting, because if such predictive power is indeed possible, it suggests that general dialog exchanges contain latent information about the gender inclusivity (or exclusivity) of an environment. While here these movie script environments are fictional, the work by the [Cornell team](http://www.cs.cornell.edu/~cristian/Chameleons_in_imagined_conversations.html) highlights that fictional dialogs can provide relevant insights into the real world. Further, gaining the ability to predict whether a movie marginalizes a disenfranchised group should be useful in working towards decreasing such marginalization, or at least in being better aware when such marginalization is occur--and understanding what language factors contribute to it.    
+I find this question--can we predict the occurance of a fictionalized female-female interaction without looking for it directly?-- particularly interesting, because if such predictive power is indeed possible, it suggests that general dialog exchanges contain latent information about the gender inclusivity (or exclusivity) of an environment. While here these movie script environments are fictional, the work by the [Cornell team](http://www.cs.cornell.edu/~cristian/Chameleons_in_imagined_conversations.html) highlights that fictional dialogs can provide relevant insights into the real world. Further, gaining the ability to predict whether a movie marginalizes a disenfranchised group should be useful in working towards decreasing such marginalization, or at least in being better aware when such marginalization is occur--and understanding what language factors contribute to it.    
 
 For a good reference that conveys the significance of character portrayals and stereotypes in media, I recommend the book [Influencer](https://www.amazon.com/Influencer-Science-Leading-Change-Second/dp/0071808868). That book describes examples where the fact that "TV and radio heroes become opinion leaders" can be harnessed for good, by creating programming that includes positive role models. *Influencer* describes instances where such an approach has been harnessed to increase access to education for women in India, and to reduce HIV transmission rates in East Africa. Unfortunately the ills stemming from negative stereotypes, even implicitly propogated stereotypes (for example: certain demographics should be seen and not heard) are pervasive, and well documented. For a conversation on the role of implicit stereotypes in race relations, I recommend [this article](https://www.theatlantic.com/politics/archive/2016/03/yale-silliman-race/475152/). There, Bria Godley writes:
 
@@ -28,14 +28,14 @@ For a good reference that conveys the significance of character portrayals and s
 
 Ultimately, word selection for characters in movies matters, and plays a role in the unequal systems of our society. As one of many gut-wrenching pieces of evidence of such inequality, the [New York Times reported](https://www.nytimes.com/2015/03/03/upshot/fewer-women-run-big-companies-than-men-named-john.html?_r=0) that in 2015 there were more CEOs named John and David than the number of all female CEOs combined.
 
-![CEO_names](images/header_image.png)
+![CEO_names](images/CEOs.png)
 
 Outline of Analysis
 ---------------
 <p>&nbsp; &nbsp; 1. Web scrape movie labels from [bechdeltest.com](http://bechdeltest.com/)</p>
-<p>&nbsp; &nbsp;        See the [obtaining labels notebook](https://github.com/lab3000/machine-learning-bechdel-test/obtaining_labels.ipynb)</p>
+**See the [obtaining labels notebook](https://github.com/lab3000/machine-learning-bechdel-test/obtaining_labels.ipynb)**
 
-<p>&nbsp; &nbsp;        For steps 2 through 9 see [this notebook](https://github.com/lab3000/machine-learning-bechdel-test/machine-learning-bechdel-test.ipynb)</p>
+**For steps 2 through 9 see [this notebook](https://github.com/lab3000/machine-learning-bechdel-test/machine-learning-bechdel-test.ipynb)**
 <p>&nbsp; &nbsp; 2. Collate dialog lines for each movie [from Cornell study](http://www.cs.cornell.edu/~cristian/papers/chameleons.pdf) and merge with labeled data (407 total movies)</p>
 <p>&nbsp; &nbsp; 3. EDA: score histograms (null model = 59% pass), Heaps Law</p>
 <p>&nbsp; &nbsp; 4. Tokenization->Doc-Term Matrix (a) Count Vectorize, (b)TFIDF)</p>
