@@ -45,9 +45,7 @@ Outline of Analysis
 <p>&nbsp; &nbsp; 7. Repeat 4 and 5, but with the badword corpus</p>
 <p>&nbsp; &nbsp; 8. Aggregate Models with GradientBoosting
 <p>&nbsp; &nbsp; 9. Conclusions/future work: >6300 more scripts that can be accessed, topic modeling, word2vec</p>    
-Devising and utilizing a
-
-![new](http://www.slate.com/blogs/xx_factor/2014/01/07/the_bechdel_test_needs_an_update_we_ve_set_the_bar_for_female_representation.html) and more rigorous metric for assessing female participation in film would make sense.
+Devising and utilizing a [new](http://www.slate.com/blogs/xx_factor/2014/01/07/the_bechdel_test_needs_an_update_we_ve_set_the_bar_for_female_representation.html) and more rigorous metric for assessing female participation in film would make sense.
 
 Summary of Results
 ---------------
